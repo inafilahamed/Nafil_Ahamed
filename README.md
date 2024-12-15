@@ -4,7 +4,8 @@
 I am a software developer passionate about creating innovative solutions with clean, efficient code.
 
 ## 🛠 Skills
-- **Languages:** Python, Dart, C program, HTML, CSS, Javascript
+- **Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+, Dart, C program, HTML, CSS, Javascript
 - **Frameworks:** Flutter, Javascript 
 - **Tools:** Git, Flask, Vscode
 - **Others:** Linux, Embedded Systems
