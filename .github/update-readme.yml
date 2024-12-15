@@ -15,7 +15,7 @@ jobs:
     - name: Generate Dynamic Stats
       uses: anuraghazra/github-readme-stats@master
       with:
-        username: YOUR_GITHUB_USERNAME
+        username: inafilahamed
 
     - name: Commit and Push Changes
       run: |
