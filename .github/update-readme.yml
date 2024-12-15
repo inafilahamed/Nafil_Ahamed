@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  schedule:
+    # Runs the workflow every 24 hours
+    - cron: '0 0 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Generate Dynamic Stats
+      uses: anuraghazra/github-readme-stats@master
+      with:
+        username: YOUR_GITHUB_USERNAME
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Update dynamic stats"
+        git push
